@@ -8,7 +8,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 100px 0;
   margin: 60px auto;
   max-width: 800px;
   background: var(--gradient);
@@ -97,6 +97,10 @@ p {
   display: block;
   cursor: pointer;
   text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(232, 178, 202);
 }
 
 .email-link {
